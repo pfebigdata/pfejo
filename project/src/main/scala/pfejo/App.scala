@@ -2,7 +2,7 @@ package pfejo
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
-
+git
 
 object App {
   
@@ -15,6 +15,7 @@ object App {
     val sc = new SparkContext("local", "Word Count (2)", new SparkConf())
 
     try {
+
 
       val out = "output/kjv-wc2"
       FileUtil.rmrf(out)
